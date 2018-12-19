@@ -1,5 +1,5 @@
 Name:           hello
-Version:        1.0.11
+Version:        1.0.12
 Release:        1%{?dist}
 Summary:        This is a test package
 
@@ -31,6 +31,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Dec 19 2018 stephane camberlin <stephane.camberlin@gmail.com> 1.0.12-1
+- cruel world (stephane.camberlin@gmail.com)
+
 * Wed Dec 19 2018 stephane camberlin <stephane.camberlin@gmail.com> 1.0.11-1
 - cruel world
 
