@@ -1,5 +1,5 @@
 Name:           hello
-Version:        1.0.2
+Version:        1.0.3
 Release:        1%{?dist}
 Summary:        This is a test package
 
@@ -31,6 +31,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Dec 19 2018 stephane camberlin <stephane.camberlin@gmail.com> 1.0.3-1
+- new package built with tito
+
 * Wed Dec 19 2018 Stephane Camberlin <stephane.camberlin@gmail.com> 1.0.2-1
 - test
 
