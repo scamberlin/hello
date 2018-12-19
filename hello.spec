@@ -5,7 +5,7 @@ Summary:        This is a test package
 
 License:        BSD 
 URL:            http://www.hello.com
-Source0:        hello-1.0.0.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 
 Requires:       coreutils
 BuildRequires:  gcc
