@@ -1,5 +1,5 @@
 Name:           hello
-Version:        1.0.4
+Version:        1.0.5
 Release:        1%{?dist}
 Summary:        This is a test package
 
@@ -31,6 +31,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Dec 19 2018 stephane camberlin <stephane.camberlin@gmail.com> 1.0.5-1
+- 
+
 * Wed Dec 19 2018 stephane camberlin <stephane.camberlin@gmail.com> 1.0.4-1
 - testing 
 
