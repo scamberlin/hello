@@ -1,5 +1,5 @@
 Name:           hello
-Version:        1.0.13
+Version:        1.0.14
 Release:        1%{?dist}
 Summary:        This is a test package
 
@@ -31,6 +31,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Dec 20 2018 stephane camberlin <stephane.camberlin@gmail.com> 1.0.14-1
+- arf (stephane.camberlin@gmail.com)
+- tito package
 * Wed Dec 19 2018 stephane camberlin <stephane.camberlin@gmail.com> 1.0.13-1
 - fix (stephane.camberlin@gmail.com)
 
